@@ -60,21 +60,23 @@ Akurasi keseluruhan.
 Berikut informasi pada dataset: 
 Nama Datasets: _Breast Cancer Wisconsin (Diagnostic) Data Set_
 
-| id      | diagnosis | radius_mean | texture_mean | perimeter_mean | area_mean | smoothness_mean | compactness_mean | concavity_mean | concave points_mean | symmetry_mean | fractal_dimension_mean | radius_se | texture_se | perimeter_se | area_se | smoothness_se | compactness_se | concavity_se | concave points_se | symmetry_se | fractal_dimension_se | radius_worst | texture_worst | perimeter_worst | area_worst | smoothness_worst | compactness_worst | concavity_worst | concave points_worst | symmetry_worst | fractal_dimension_worst |
-|---------|-----------|-------------|--------------|----------------|-----------|-----------------|------------------|----------------|---------------------|---------------|------------------------|-----------|------------|--------------|---------|---------------|----------------|--------------|-------------------|-------------|----------------------|--------------|---------------|-----------------|------------|------------------|-------------------|-----------------|----------------------|----------------|--------------------------|
-| 842302  | M         | 17.99       | 10.38        | 122.8          | 1001      | 0.1184          | 0.2776           | 0.3001         | 0.1471              | 0.2419        | 0.07871                | 1.095     | 0.9053     | 8.589        | 153.4   | 0.006399      | 0.04904        | 0.05373      | 0.01587           | 0.03003     | 0.006193             | 25.38       | 17.33         | 184.6           | 2019       | 0.1622           | 0.6656            | 0.7119          | 0.2654               | 0.4601         | 0.1189                   |
-| 842517  | M         | 20.57       | 17.77        | 132.9          | 1326      | 0.08474         | 0.07864          | 0.0869         | 0.07017             | 0.1812        | 0.05667                | 0.5435    | 0.7339     | 3.398        | 74.08   | 0.005225      | 0.01308        | 0.0186       | 0.0134            | 0.01389     | 0.003532             | 24.99       | 23.41         | 158.8           | 1956       | 0.1238           | 0.1866            | 0.2416          | 0.186                | 0.275          | 0.08902                  |
-| 84300903| M         | 19.69       | 21.25        | 130            | 1203      | 0.1096          | 0.1599           | 0.1974         | 0.1279              | 0.2069        | 0.05999                | 0.7456    | 0.7869     | 4.585        | 94.03   | 0.00615       | 0.04006        | 0.03832      | 0.02058           | 0.0225      | 0.004571             | 23.57       | 25.53         | 152.5           | 1709       | 0.1444           | 0.4245            | 0.4504          | 0.243                | 0.3613         | 0.08758                  |
-| 84348301| M         | 11.42       | 20.38        | 77.58          | 386.1     | 0.1425          | 0.2839           | 0.2414         | 0.1052              | 0.2597        | 0.09744                | 0.4956    | 1.156      | 3.445        | 27.23   | 0.00911       | 0.07458        | 0.05661      | 0.01867           | 0.05963     | 0.009208             | 14.91       | 26.5          | 98.87           | 567.7      | 0.2098           | 0.8663            | 0.6869          | 0.2575               | 0.6638         | 0.173                    |
-| 84358402| M         | 20.29       | 14.34        | 135.1          | 1297      | 0.1003          | 0.1328           | 0.198          | 0.1043              | 0.1809        | 0.05883                | 0.7572    | 0.7813     | 5.438        | 94.44   | 0.01149       | 0.02461        | 0.05688      | 0.01885           | 0.01756     | 0.005115             | 22.54       | 16.67         | 152.2           | 1575       | 0.1374           | 0.205             | 0.4             | 0.1625               | 0.2364         | 0.07678                  |
-| 843786  | M         | 12.45       | 15.7         | 82.57          | 477.1     | 0.1278          | 0.17             | 0.1578         | 0.08089             | 0.2087        | 0.07613                | 0.3345    | 0.8902     | 2.217        | 27.19   | 0.00751       | 0.03345        | 0.03672      | 0.01137           | 0.02165     | 0.005082             | 15.47       | 23.75         | 103.4           | 741.6      | 0.1791           | 0.5249            | 0.5355          | 0.1741               | 0.3985         | 0.1244                   |
+| id      | diagnosis | radius_mean | texture_mean | perimeter_mean | area_mean | smoothness_mean | compactness_mean | concavity_mean | concave points_mean | symmetry_mean | fractal_dimension_mean | radius_se | texture_se | perimeter_se | area_se | smoothness_se | compactness_se | concavity_se | concave points_se | symmetry_se | fractal_dimension_se | radius_worst | texture_worst | perimeter_worst | area_worst | smoothness_worst | compactness_worst | concavity_worst | concave points_worst | symmetry_worst | fractal_dimension_worst | Unnamed: 32 |
+|---------|-----------|-------------|--------------|----------------|-----------|-----------------|------------------|----------------|---------------------|---------------|------------------------|-----------|------------|--------------|---------|---------------|----------------|--------------|-------------------|-------------|----------------------|--------------|---------------|-----------------|------------|------------------|-------------------|-----------------|----------------------|----------------|--------------------------|-------------|
+| 842302  | M         | 17.99       | 10.38        | 122.8          | 1001      | 0.1184          | 0.2776           | 0.3001         | 0.1471              | 0.2419        | 0.07871                | 1.095     | 0.9053     | 8.589        | 153.4   | 0.006399      | 0.04904        | 0.05373      | 0.01587           | 0.03003     | 0.006193             | 25.38       | 17.33         | 184.6           | 2019       | 0.1622           | 0.6656            | 0.7119          | 0.2654               | 0.4601         | 0.1189                   | NaN         |
+| 842517  | M         | 20.57       | 17.77        | 132.9          | 1326      | 0.08474         | 0.07864          | 0.0869         | 0.07017             | 0.1812        | 0.05667                | 0.5435    | 0.7339     | 3.398        | 74.08   | 0.005225      | 0.01308        | 0.0186       | 0.0134            | 0.01389     | 0.003532             | 24.99       | 23.41         | 158.8           | 1956       | 0.1238           | 0.1866            | 0.2416          | 0.186                | 0.275          | 0.08902                  | NaN         |
+| 84300903| M         | 19.69       | 21.25        | 130            | 1203      | 0.1096          | 0.1599           | 0.1974         | 0.1279              | 0.2069        | 0.05999                | 0.7456    | 0.7869     | 4.585        | 94.03   | 0.00615       | 0.04006        | 0.03832      | 0.02058           | 0.0225      | 0.004571             | 23.57       | 25.53         | 152.5           | 1709       | 0.1444           | 0.4245            | 0.4504          | 0.243                | 0.3613         | 0.08758                  | NaN         |
+| 84348301| M         | 11.42       | 20.38        | 77.58          | 386.1     | 0.1425          | 0.2839           | 0.2414         | 0.1052              | 0.2597        | 0.09744                | 0.4956    | 1.156      | 3.445        | 27.23   | 0.00911       | 0.07458        | 0.05661      | 0.01867           | 0.05963     | 0.009208             | 14.91       | 26.5          | 98.87           | 567.7      | 0.2098           | 0.8663            | 0.6869          | 0.2575               | 0.6638         | 0.173                    | NaN         |
+| 84358402| M         | 20.29       | 14.34        | 135.1          | 1297      | 0.1003          | 0.1328           | 0.198          | 0.1043              | 0.1809        | 0.05883                | 0.7572    | 0.7813     | 5.438        | 94.44   | 0.01149       | 0.02461        | 0.05688      | 0.01885           | 0.01756     | 0.005115             | 22.54       | 16.67         | 152.2           | 1575       | 0.1374           | 0.205             | 0.4             | 0.1625               | 0.2364         | 0.07678                  | NaN         |
+| 843786  | M         | 12.45       | 15.7         | 82.57          | 477.1     | 0.1278          | 0.17             | 0.1578         | 0.08089             | 0.2087        | 0.07613                | 0.3345    | 0.8902     | 2.217        | 27.19   | 0.00751       | 0.03345        | 0.03672      | 0.01137           | 0.02165     | 0.005082             | 15.47       | 23.75         | 103.4           | 741.6      | 0.1791           | 0.5249            | 0.5355          | 0.1741               | 0.3985         | 0.1244                   | NaN         |
 
 Tabel 1. EDA Deskripsi Variabel
 
 Dilihat dari _Tabel 1. EDA Deskripsi Variabel_ dataset ini telah di *bersihkan* terlebih dahulu oleh pembuat, sehingga mudah digunakan dan ramah bagi pemula. 
 - Dataset berupa CSV (Comma-Seperated Values).
-- Dataset memiliki 569 sample dengan 32 fitur.
-- Dataset memiliki 30 fitur bertipe float64 dan 2 fitur bertipe object.
+- Dataset memiliki 569 sample dengan 33 fitur.
+- Dataset memiliki 32 fitur bertipe float64 dan 1 fitur bertipe object.
+- Dataset ini tidak terdapat data yang terduplikat.
+- Dataset ini tidak ada missing value.
 
 ### Variable - variable pada dataset
 - `id` : Nomor identitas unik untuk setiap sampel (pasien).
@@ -89,11 +91,28 @@ Dilihat dari _Tabel 1. EDA Deskripsi Variabel_ dataset ini telah di *bersihkan* 
 - `concave points_mean` : Jumlah titik cekung pada kontur sel.
 - `symmetry_mean` : Tingkat simetri sel.
 - `fractal_dimension_mean` : pendekatan kurva terhadap dimensi fraktal.
-Kolom-kolom berikutnya memiliki akhiran _se dan _worst, yang mengacu pada:
-- `_se` : Standard error (kesalahan standar) dari fitur tersebut, memberikan estimasi ketidakpastian dalam pengukuran.
-- `_worst` : Nilai terburuk (tertinggi/maksimum) dari fitur tersebut yang diambil dari tiga area terbesar di zona tumor.
+-  `radius_se` : Variabilitas pengukuran radius rata-rata.
+-  `texture_se` : Variasi dalam pengukuran tekstur.
+-   `perimeter_se` : Ketidakpastian panjang perimeter.
+-   `area_se` : Variasi luas area nukleus.
+-   `smoothness_se` : Konsistensi kelicinan permukaan.
+-   `compactness_se` : Variasi kekompakan bentuk.
+-   `concavity_se` : Ketidakkonsistenan bagian cekung.
+-   `concave points_se` : Variasi jumlah titik cekung.
+-   `symmetry_se` : Fluktuasi tingkat simetri.
+-   `fractal_dimension_se` : Variasi kompleksitas fraktal.
+-   `radius_worst` : Radius terbesar yang terukur.
+-   `texture_worst` : Tekstur paling tidak homogen.
+-   `perimeter_worst` : Perimeter terpanjang.
+-   `area_worst` : Luas terbesar.
+-   `smoothness_worst` : Kelicinan paling tidak konsisten.
+-   `compactness_worst` : Bentuk paling tidak kompak.
+-   `concavity_worst` : Cekungan terdalam.
+-   `concave points_worst` : Jumlah titik cekung terbanyak.
+-   `symmetry_worst` : Simetri paling buruk.
+-   `fractal_dimension_worst` : Kompleksitas fraktal tertinggi.
+-   `Unamed:32` : seluruhnya berisi nilai NaN (tidak ada data).
 
-Dikarenakan kolom id dan unnamed: 32 tidak mempengaruhi model maka akan di drop / dihapus.
 
 ### EDA - Univariate Analysis
 
@@ -156,15 +175,14 @@ Tahap data preparation dilakukan agar data siap digunakan untuk proses modeling 
 ## Analisis Model
 
 ### 1. Random Forest
-**Parameter:**  
-- n_estimators=100 (default)
-- max_depth=None
-- random_state=42
+**Cara Kerja:**  
+- Bootstrapping: Setiap pohon dilatih pada subset data acak (sampling with replacement).
+- Split Fitur Acak: Setiap split node menggunakan subset fitur acak (default: sqrt(n_features)).
+- Agregasi Hasil: Prediksi akhir ditentukan oleh mayoritas voting dari semua pohon.
 
-**Hasil:**  
-- Accuracy: 96.49%
-- Precision: 0.98 (class 1)
-- Recall: 0.93 (class 1)
+**Parameter:**  
+- n_estimators=100 (default): Jumlah pohon dalam forest. Nilai default dipilih karena stabil dan cukup untuk akurasi tinggi.
+- random_state=42: Untuk memastikan hasil dapat direproduksi.
 
 **Kelebihan:**
 - Tahan terhadap overfitting
@@ -176,16 +194,14 @@ Tahap data preparation dilakukan agar data siap digunakan untuk proses modeling 
 - Kurang interpretabel dibanding model linear
 
 ### 2. Logistic Regression
-**Parameter:**  
-- penalty='l2'
-- C=1.0
-- max_iter=100
-- random_state=42
+**Cara Kerja:**  
+- Transformasi Linear: z = b0 + b1*x1 + ... + bn*xn
+- Fungsi Sigmoid: P(y=1) = 1 / (1 + e^(-z))
+- Klasifikasi: Threshold default 0.5 menentukan kelas prediksi.
 
-**Hasil:**  
-- Accuracy: 97.37%
-- Precision: 0.98 (class 1)
-- Recall: 0.95 (class 1)
+**Parameter:**  
+- penalty='l2' (regularisasi Ridge).
+- C=1.0 (kebalikan dari kekuatan regularisasi).
 
 **Kelebihan:**
 - Cepat dalam training dan prediksi
@@ -197,16 +213,13 @@ Tahap data preparation dilakukan agar data siap digunakan untuk proses modeling 
 - Sensitif terhadap outliers
 
 ### 3. Support Vector Machine (SVM)
-**Parameter:**  
-- kernel='rbf'
-- C=1.0
-- gamma='scale'
-- random_state=42
+**Cara Kerja:**  
+- SVM mencari hyperplane optimal yang memisahkan kelas dengan margin terlebar. Untuk data non-linear, digunakan kernel trick.
 
-**Hasil:**  
-- Accuracy: 98.25%
-- Precision: 1.00 (class 1)
-- Recall: 0.95 (class 1)
+**Parameter:**  
+- kernel='rbf' (default): Kernel Radial Basis Function untuk menangani non-linearitas.
+- probability=True: Memungkinkan estimasi probabilitas (untuk metode seperti predict_proba).
+
 
 **Kelebihan:**
 - Efektif di high dimensional space
@@ -237,6 +250,29 @@ Tahap data preparation dilakukan agar data siap digunakan untuk proses modeling 
    - Tidak ada misklasifikasi untuk kelas negatif (0 false positives)  
 
 ## Evaluation
+
+
+
+| Problem Statement | Jawaban dari Model |
+|-------------------|--------------------|
+| **Algoritma mana yang paling efektif?** | SVM memberikan akurasi tertinggi (**98.25%**), diikuti Logistic Regression (**97.37%**) dan Random Forest (**96.49%**). |
+| **Apakah fitur numerik bisa mengklasifikasi tumor?** | **Ya**, terbukti dengan akurasi >96% pada semua model. Fitur seperti `concavity_worst` dan `radius_mean` sangat berpengaruh (lihat `feature_importance` Random Forest). |
+| **Bagaimana akurasi dan reliabilitas model?** | Semua model memiliki **precision >96%** dan **recall >93%** untuk kelas ganas (1). SVM mencapai **100% precision** untuk kelas ganas (tidak ada False Positive). |
+
+
+| Goal                          | Pencapaian                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| Membandingkan algoritma       | SVM > Logistic Regression > Random Forest dalam hal akurasi.               |
+| Membuktikan klasifikasi akurat| Akurasi model sangat tinggi (>96%) dengan konsistensi yang baik (lihat confusion matrix). |
+| Menilai performa metrik       | - **SVM**: Recall = 95% (minim False Negative)  
+|                               | - **Logistic Regression**: Precision = 98% (minim False Positive)  
+|                               | - **Random Forest**: F1-score = 95% (seimbang)                             |
+
+| Solusi              | Dampak                                                                                       |
+|---------------------|-----------------------------------------------------------------------------------------------|
+| **Random Forest**   | - Stabil dan interpretable (bisa analisis `feature_importance`).<br>- Cocok untuk data kompleks, tapi akurasi sedikit di bawah SVM. |
+| **Logistic Regression** | - Sederhana dan cepat.<br>- Precision tinggi (98%), cocok untuk menghindari overdiagnosis (False Positive). |
+| **SVM**             | - Solusi terbaik dengan akurasi tertinggi (98.25%).<br>- 100% precision untuk kelas ganas = tidak ada pasien sehat yang salah didiagnosis ganas. |
 
 ### Metrik Evaluasi yang Digunakan
 
@@ -324,13 +360,6 @@ Berikut hasil accuracy 3 buah model yang latih:
 ![Plot Accuracy](https://i.ibb.co.com/WN83XVBH/Screenshot-2025-04-30-200441.png) 
 
 Dilihat dari tabel dan gambar tersebut dapat diketahui bahwa model dengan algoritma SVM memiliki Accuracy yang lebih tinggi dengan accuracy 98% . Untuk itu model tersebut yang akan dipilih untuk digunakan.
-
-
-
-
-
-
-
 
 
 
